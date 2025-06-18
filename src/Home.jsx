@@ -1,11 +1,22 @@
-import React from 'react'
+import React from 'react';
+import Carousel from '../src/components/Carousel';
+
+
+
 
 
 const Home = () => {
     return (
-      <header className='header'>
+      <div>
+       <header className='header'>
         <h1>Mi Cuoco</h1>
-      </header>
+       </header>
+       <main>
+        <Carousel />
+       </main>
+
+      </div>
+     
     );
   };
 

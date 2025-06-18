@@ -1,0 +1,72 @@
+/* src/components/Carousel.css */
+
+.carousel-container {
+    position: relative;
+    width: 100vw;
+    height: 70vh; /* Aumentado */
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .carousel-slide img {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+  }
+  
+  .carousel-slide img.active {
+    display: block;
+  }
+  
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 4px;
+  }
+  
+  .carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .carousel-container {
+      height: 40vh;
+    }
+  
+    .carousel-btn {
+      font-size: 1.5rem;
+      padding: 0.3rem 0.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .carousel-container {
+      height: 30vh;
+    }
+  }
+  
+  
