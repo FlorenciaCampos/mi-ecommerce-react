@@ -111,17 +111,11 @@
 
 
 
-
-
-
-
-
-
 /*main */
 .carousel-container {
     position: relative;
     width: 100vw;
-    height: 85vh; /* Aumentado */
+    height: 85vh; 
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   }

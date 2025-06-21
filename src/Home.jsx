@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from '../src/components/Carousel';
-import Header from '../src/components/Header'; // ✅ correcto
+import Header from '../src/components/Header'; 
 
 
 

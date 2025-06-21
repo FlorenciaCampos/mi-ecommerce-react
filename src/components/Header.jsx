@@ -1,13 +1,13 @@
-// src/components/Header.jsx
+
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png'; // Asegurate que el logo esté en src/assets
+import logo from '../assets/logo.png'; 
 import '../styles/index.css'
 
 const Header = () => {
   return (
     <header className="header">
       
-      <div className="menu-hamburguesa"> {/* Menú hamburguesa */}
+      <div className="menu-hamburguesa"> 
         <input type="checkbox" id="menu-toggle" />
         <label htmlFor="menu-toggle" className="menu-icon">&#9776;</label>
 
@@ -32,7 +32,7 @@ const Header = () => {
 
     
       <div className="lado-derecho">
-        <Link to="/carrito" className="carrito">🛒</Link>   {/* Icono del carrito */}
+        <Link to="/carrito" className="carrito">🛒</Link>   
       </div>
     </header>
   );
