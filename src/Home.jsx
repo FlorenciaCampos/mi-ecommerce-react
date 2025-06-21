@@ -1,23 +1,22 @@
 import React from 'react';
 import Carousel from '../src/components/Carousel';
+import Header from '../src/components/Header'; // ✅ correcto
+
 
 
 
 
 
 const Home = () => {
-    return (
-      <div>
-       <header className='header'>
-        <h1>Mi Cuoco</h1>
-       </header>
-       <main>
+  return (
+    <>
+      <Header />
+      <main>
         <Carousel />
-       </main>
+      </main>
+    </>
+  );
+};
 
-      </div>
-     
-    );
-  };
 
 export default Home;
