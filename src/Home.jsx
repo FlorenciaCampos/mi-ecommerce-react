@@ -3,10 +3,6 @@ import Carousel from '../src/components/Carousel';
 import Header from '../src/components/Header'; 
 
 
-
-
-
-
 const Home = () => {
   return (
     <>
