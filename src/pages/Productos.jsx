@@ -1,12 +1,21 @@
-import React from 'react'
+// src/pages/Productos.jsx
+import React from 'react';
+import CardProducto from '../components/CardProducto';
+import listaProductos from '../data/productosData';
 
-
-const Productos = () => {
-    return (
-      <header className='header'>
-        <h1>Productos</h1>
-      </header>
-    );
-  };
+function Productos() {
+  return (
+    <div className="contenedor-card">
+      {listaProductos.map((prod, index) => (
+        <CardProducto
+          key={index}
+          imagen={prod.imagen}
+          nombre={prod.nombre}
+          precio={prod.precio}
+        />
+      ))}
+    </div>
+  );
+}
 
 export default Productos;
