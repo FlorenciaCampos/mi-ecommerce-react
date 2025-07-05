@@ -1,12 +1,16 @@
-import React from 'react'
-
+import React from "react";
+import QuienesSomos from "../components/QuienesSomos";
 
 const Nosotros = () => {
-    return (
-      <header className='header'>
-        <h1>Nosotros</h1>
-      </header>
-    );
-  };
+  return (
+    <>
+      <h1>Nosotros</h1>
+      <main className="nosotros">
+        <QuienesSomos />
+      </main>
+    </>
+    
+  );
+};
 
 export default Nosotros;

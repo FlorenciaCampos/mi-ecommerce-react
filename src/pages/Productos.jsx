@@ -5,6 +5,8 @@ import listaProductos from '../data/productosData';
 
 function Productos() {
   return (
+    <>
+    <h1>Productos</h1>
     <div className="contenedor-card">
       {listaProductos.map((prod, index) => (
         <CardProducto
@@ -15,6 +17,8 @@ function Productos() {
         />
       ))}
     </div>
+    </>
+    
   );
 }
 

@@ -1,12 +1,15 @@
-import React from 'react'
-
+// src/pages/Contacto.jsx
+import React from 'react';
+import ContactForm from '../components/ContactForm';
 
 const Contacto = () => {
-    return (
-      <header className='header'>
-        <h1>Contacto</h1>
-      </header>
-    );
-  };
+  return (
+    <>
+     
+      <ContactForm />
+    
+    </>
+  );
+};
 
 export default Contacto;
