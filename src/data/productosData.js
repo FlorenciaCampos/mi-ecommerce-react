@@ -22,47 +22,26 @@ import unidad from '../assets/Unidad.jpeg';
 
 
 
-
-
-
-
-
-
 const listaProductos = [
-    { imagen: helado, nombre: "KIT HELADO", precio: "0.000" },
-    { imagen: hamburguesa, nombre: "KIT HAMBURGUESA", precio: "0.000" },
-    { imagen: picada, nombre: "KIT PICADA", precio: "0.000" },
-    { imagen: pasta, nombre: "KIT PASTA", precio: "0.000" },
-    { imagen: pizza, nombre: "KIT PIZZA", precio: "0.000" },
-    { imagen: sushi, nombre: "KIT SUSHI", precio: "0.000" },
-    { imagen: desayuno, nombre: "KIT DESAYUNO", precio: "0.000" },
-    { imagen: merienda, nombre: "KIT MERIENDA", precio: "0.000" },
-    { imagen: batidora, nombre: "BATIDORA", precio: "0.000" },
-    { imagen: licuadora, nombre: "LICUADORA", precio: "0.000" },
-    { imagen: carrito, nombre: "CARRITO DE COMPRAS", precio: "0.000" },
-    { imagen: cocinita, nombre: "COCINITA", precio: "0.000" },
-    { imagen: heladeria, nombre: "HELADERIA", precio: "0.000" },
-    { imagen: vajilla, nombre: "VAJILLA", precio: "0.000" },
-    { imagen: mate, nombre: "KIT MATE", precio: "0.000" },
-    { imagen: ollitas, nombre: "OLLITAS", precio: "0.000" },
-    { imagen: repasadores, nombre: "REPASADORES", precio: "0.000" },
-    { imagen: parrilla, nombre: "PARRILLA", precio: "0.000" },
-    { imagen: unidad, nombre: "COMIDITAS POR UNIDAD", precio: "0.000" },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // ...y así todos los productos
-  ];
+  { id: 1, imagen: helado, nombre: "KIT HELADO", precio: "0.000" },
+  { id: 2, imagen: hamburguesa, nombre: "KIT HAMBURGUESA", precio: "0.000" },
+  { id: 3, imagen: picada, nombre: "KIT PICADA", precio: "0.000" },
+  { id: 4, imagen: pasta, nombre: "KIT PASTA", precio: "0.000" },
+  { id: 5, imagen: pizza, nombre: "KIT PIZZA", precio: "0.000" },
+  { id: 6, imagen: sushi, nombre: "KIT SUSHI", precio: "0.000" },
+  { id: 7, imagen: desayuno, nombre: "KIT DESAYUNO", precio: "0.000" },
+  { id: 8, imagen: merienda, nombre: "KIT MERIENDA", precio: "0.000" },
+  { id: 9, imagen: batidora, nombre: "BATIDORA", precio: "0.000" },
+  { id: 10, imagen: licuadora, nombre: "LICUADORA", precio: "0.000" },
+  { id: 11, imagen: carrito, nombre: "CARRITO DE COMPRAS", precio: "0.000" },
+  { id: 12, imagen: cocinita, nombre: "COCINITA", precio: "0.000" },
+  { id: 13, imagen: heladeria, nombre: "HELADERÍA", precio: "0.000" },
+  { id: 14, imagen: vajilla, nombre: "VAJILLA", precio: "0.000" },
+  { id: 15, imagen: mate, nombre: "KIT MATE", precio: "0.000" },
+  { id: 16, imagen: ollitas, nombre: "OLLITAS", precio: "0.000" },
+  { id: 17, imagen: repasadores, nombre: "REPASADORES", precio: "0.000" },
+  { id: 18, imagen: parrilla, nombre: "PARRILLA", precio: "0.000" },
+  { id: 19, imagen: unidad, nombre: "COMIDITAS POR UNIDAD", precio: "0.000" },
+];
   
   export default listaProductos;
