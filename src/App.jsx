@@ -3,51 +3,23 @@ import Home from './Home';
 import Productos from './pages/Productos';
 import Contacto from './pages/Contacto';
 import Nosotros from './pages/Nosotros';
-import Header from './components/Header';
-import Layout from './layout/Layout'; 
+import ProductDetail from './pages/ProductDetail';
+import Layout from './layout/Layout';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route
-          path="/"
-          element={
-            <Layout>
-              <Home />
-            </Layout>
-          }
-        />
-        <Route
-          path="/productos"
-          element={
-            <Layout>
-              <Productos />
-            </Layout>
-          }
-        />
-         <Route
-          path="/contacto"
-          element={
-            <Layout>
-              <Contacto />
-            </Layout>
-          }
-        />
-         <Route
-          path="/nosotros"
-          element={
-            <Layout>
-              <Nosotros />
-            </Layout>
-          }
-        />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="productos" element={<Productos />} />
+          <Route path="producto/:id" element={<ProductDetail />} />
+          <Route path="contacto" element={<Contacto />} />
+          <Route path="nosotros" element={<Nosotros />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );
 }
 
 export default App;
-
-
-

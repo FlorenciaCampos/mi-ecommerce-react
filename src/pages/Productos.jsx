@@ -1,24 +1,15 @@
-// src/pages/Productos.jsx
 import React from 'react';
-import CardProducto from '../components/CardProducto';
 import listaProductos from '../data/productosData';
+import CardProducto from '../components/CardProducto';
+import '../styles/producto.css';
 
 function Productos() {
   return (
-    <>
-    <h1>Productos</h1>
-    <div className="contenedor-card">
-      {listaProductos.map((prod, index) => (
-        <CardProducto
-          key={index}
-          imagen={prod.imagen}
-          nombre={prod.nombre}
-          precio={prod.precio}
-        />
+    <main className="contenedor-card">
+      {listaProductos.map((producto) => (
+        <CardProducto key={producto.id} product={producto} />
       ))}
-    </div>
-    </>
-    
+    </main>
   );
 }
 

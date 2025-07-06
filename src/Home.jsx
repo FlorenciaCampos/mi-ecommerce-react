@@ -1,4 +1,4 @@
-// src/pages/Home.jsx
+
 import React from 'react';
 import Carousel from '../src/components/Carousel';
 import CardDestacada from '../src/components/CardDestacada';
