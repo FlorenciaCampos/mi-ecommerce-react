@@ -1,4 +1,4 @@
-// src/pages/ProductDetail.jsx
+
 import { useParams, Link } from 'react-router-dom';
 import productos from '../data/productosData'; 
 import '../styles/productDetail.css';

@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <Outlet /> {/* Acá se renderiza la página */}
+      <Outlet /> 
       <Footer />
     </>
   );
